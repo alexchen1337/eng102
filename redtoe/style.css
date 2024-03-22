@@ -1,0 +1,53 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: black; /* Set background to black */
+}
+
+.content {
+    width: 100%;
+    text-align: center;
+}
+
+.content img {
+    width: 50%; /* Adjust as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.content .description, .content .analysis {
+    color: white; /* Makes the text color white */
+    font-family: 'Hedvig Letters Serif', serif;
+    margin: 10px auto; /* Adjust margin as needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 0 20px; /* Add some padding on the sides */
+}
+
+.content .description {
+    font-size: 14px; /* Smaller font size for description */
+}
+
+.content .analysis {
+    font-size: 20px; /* Larger font size for analysis */
+    line-height: 2;
+}
+
+.content .analysis {
+    color: white; /* Makes the text color white */
+    font-family: 'Hedvig Letters Serif', serif;
+    font-size: 20px; /* Larger font size for analysis */
+    line-height: 2;
+    margin: 20px auto;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hedvig-letters-serif-unique {
+    font-family: "Hedvig Letters Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
