@@ -14,13 +14,6 @@ body, html {
     padding: 40px; /* Adds padding to all sides */
 }
 
-.content img {
-    width: 40%; /* Adjust as needed */
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
 .content .description, .content .analysis {
   color: white; /* Makes the text color white */
   font-family: 'Hedvig Letters Serif', serif;
@@ -30,7 +23,7 @@ body, html {
 }
 
 .content .description {
-  font-size: 14px; /* Smaller font size for description */
+  font-size: 20px; /* Smaller font size for description */
   margin: 0 0 20px 0;
 }
 
